@@ -135,7 +135,7 @@ function addEmployee() {
   {
     type: 'list',
     name: 'role',
-    choices: ['Add Engineer', 'Add Intern', "Done adding employees, show my team's web page!"],
+    choices: ['Add Engineer', 'Add Intern', "Done adding team members, create my team's web page!"],
     default: 'Add Engineer',
   }
   ])
@@ -199,7 +199,7 @@ function managerInfo() {
     },
     {
       type: 'input',
-      name: 'office',
+      name: 'officeNumber',
       message: "What is the Manger's office number? (Required) ",
       validate: officeInput => {
         if (!officeInput) {

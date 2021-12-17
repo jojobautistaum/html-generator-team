@@ -1,6 +1,6 @@
-const employeeEngineer = require('../lib/Engineer');
-const employeeManager = require('../lib/Manager');
-const employeeIntern = require('../lib/Intern');
+const Engineer = require('../lib/Engineer');
+const Manager = require('../lib/Manager');
+const Intern = require('../lib/Intern');
 
 function htmlPage(manager, engineer, intern) {
     return `
@@ -31,7 +31,7 @@ function htmlPage(manager, engineer, intern) {
   };
 
 function managerSection(manager) {
-  const managerArr = new employeeManager(manager[0].name, manager[0].id, manager[0].email, manager[0].officeNumber);
+  const managerArr = new Manager(manager[0].name, manager[0].id, manager[0].email, manager[0].officeNumber);
   return `
     <div class="col-sm-4">
       <div class="card">
@@ -50,20 +50,19 @@ function managerSection(manager) {
 
 function engineerSection(engineer) {
   let engineers = "";
-  let engineerArr = [];
   for (let i = 0; i < engineer.length; i ++) {
-    engineerArr[i] = new employeeEngineer(engineer[i].name, engineer[i].id, engineer[i].email, engineer[i].github)
+    const engineerArr = new Engineer(engineer[i].name, engineer[i].id, engineer[i].email, engineer[i].github)
     engineers = engineers + 
     `
     <div class="col-sm-4">
       <div class="card">
-        <h4>${engineerArr[i].getName()}<br/>
-          ${engineerArr[i].getRole()}
+        <h4>${engineerArr.getName()}<br/>
+          ${engineerArr.getRole()}
         </h4>
         <div class="card-body">
-          <p>ID: ${engineerArr[i].getId()}</p>
-          <p>Emal: ${engineerArr[i].getEmail()}</p>
-          <p>GitHub: ${engineerArr[i].getGithub()}</p>
+          <p>ID: ${engineerArr.getId()}</p>
+          <p>Emal: ${engineerArr.getEmail()}</p>
+          <p>GitHub: ${engineerArr.getGithub()}</p>
         </div>
       </div>
     </div>
@@ -74,20 +73,19 @@ function engineerSection(engineer) {
 
 function internSection(intern) {
   let interns = "";
-  let internArr = [];
   for (let i = 0; i < intern.length; i ++) {
-    internArr[i] = new employeeIntern(intern[i].name, intern[i].id, intern[i].email, intern[i].school)
+    const internArr = new Intern(intern[i].name, intern[i].id, intern[i].email, intern[i].school)
     interns = interns + 
     `
     <div class="col-sm-4">
       <div class="card">
-        <h4>${internArr[i].getName()}<br/>
-          ${internArr[i].getRole()}
+        <h4>${internArr.getName()}<br/>
+          ${internArr.getRole()}
         </h4>
         <div class="card-body">
-          <p>ID: ${internArr[i].getId()}</p>
-          <p>Emal: ${internArr[i].getEmail()}</p>
-          <p>School: ${internArr[i].getSchool()}</p>
+          <p>ID: ${internArr.getId()}</p>
+          <p>Emal: ${internArr.getEmail()}</p>
+          <p>School: ${internArr.getSchool()}</p>
         </div>
       </div>
     </div>
