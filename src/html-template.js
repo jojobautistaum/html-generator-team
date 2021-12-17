@@ -11,6 +11,7 @@ function htmlPage(manager, engineer, intern) {
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
       <link rel="stylesheet" href="./style.css">
       <title>My Team Page</title>
       </head>
@@ -36,7 +37,7 @@ function managerSection(manager) {
     <div class="col-sm-4">
       <div class="card">
         <h4>${managerArr.getName()}<br/>
-          ${managerArr.getRole()} 
+        <i class="fas fa-mug-hot"></i> ${managerArr.getRole()} 
         </h4>
         <div class="card-body">
           <p>ID: ${managerArr.getId()}</p>
@@ -57,7 +58,7 @@ function engineerSection(engineer) {
     <div class="col-sm-4">
       <div class="card">
         <h4>${engineerArr.getName()}<br/>
-          ${engineerArr.getRole()}
+        <i class="fas fa-glasses"></i> ${engineerArr.getRole()}
         </h4>
         <div class="card-body">
           <p>ID: ${engineerArr.getId()}</p>
@@ -80,7 +81,7 @@ function internSection(intern) {
     <div class="col-sm-4">
       <div class="card">
         <h4>${internArr.getName()}<br/>
-          ${internArr.getRole()}
+        <i class="fas fa-user-graduate"></i> ${internArr.getRole()}
         </h4>
         <div class="card-body">
           <p>ID: ${internArr.getId()}</p>
