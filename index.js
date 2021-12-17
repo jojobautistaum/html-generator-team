@@ -140,25 +140,16 @@ function addEmployee() {
   }
   ])
   .then(answers => {
-    console.log(answers); 
     answers = JSON.stringify(answers);
     if (answers.includes("Engineer")) {
-      return engineerInfo();
+      engineerInfo();
     } else if (answers.includes("Intern")) {
-      return internInfo();
+      internInfo();
     } else {
-      return (manager, engineer, intern);
+      const htmlPage = htmlTemplate(manager, engineer, intern);
+      generateHtml(htmlPage);
     }
   })
-  .then(employeeData => {
-    return htmlTemplate(employeeData);
-  })
-  .then(htmlFile => {
-    return generateHtml(htmlFile);
-  })
-  // .then(writeFileResponse => {
-  //   return console.log(writeFileResponse);
-  // })
   .catch(err => {
     console.log(err);
   });

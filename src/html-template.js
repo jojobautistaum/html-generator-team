@@ -2,9 +2,7 @@ const employeeEngineer = require('../lib/Engineer');
 const employeeManager = require('../lib/Manager');
 const employeeIntern = require('../lib/Intern');
 
-function htmlPage(employees) {
-    const {manager, engineer, intern} = employees;
-   
+function htmlPage(manager, engineer, intern) {
     return `
       <!DOCTYPE html>
       <html lang="en">
@@ -33,8 +31,7 @@ function htmlPage(employees) {
   };
 
 function managerSection(manager) {
-  const managerArr = new employeeManager(manager.name, manager.id, manager.email, manager.officeNumber);
-
+  const managerArr = new employeeManager(manager[0].name, manager[0].id, manager[0].email, manager[0].officeNumber);
   return `
     <div class="col-sm-4">
       <div class="card">
