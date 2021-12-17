@@ -18,7 +18,7 @@
   **npm i inquirer**
 
   ## Usage <a id="usage"></a> 
-  ### How to use the App
+  ### How to use this App
   ![How to Use this App?](https://user-images.githubusercontent.com/90885263/144780497-c3f3e322-8a30-4200-bab9-a566bbd3b1a9.mp4)
 
   ### Disect Generated README based on User Input
