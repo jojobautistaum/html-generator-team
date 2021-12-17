@@ -1,10 +1,14 @@
 const Manager = require('../lib/Manager');
 
-test('creates manager object', () => {
+describe('Creates a manager object', () => {
     const manager = new Manager("Tim", 22, "tim@ball.com", 1);
-    const role = manager.getRole();
-    const officeNumber = manager.getOfficeNumber();
-  
-    expect(role).toBe('Manager');
-    expect(officeNumber).toBe(1);
+    it('getRole method', () => {
+        const role = manager.getRole();
+        expect(role).toBe('Manager');
+    });
+
+    it('getOfficeNumber method', () => {
+        const officeNumber = manager.getOfficeNumber();
+        expect(officeNumber).toBe(1);
+    });
 });
