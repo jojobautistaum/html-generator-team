@@ -25,6 +25,7 @@
   ### Snapshots
   * Sample Input <br />
   ![Input](./assets/images/sample-input.jpg)
+  
   * Sample Team Chart Page <br />
   ![Team Page](./assets/images/sample-page.jpg)
 
