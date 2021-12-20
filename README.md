@@ -20,7 +20,7 @@
 
   ## Usage <a id="usage"></a> 
   ### Watch the video on how to use this App:
-  ![How to Use this App?](https://user-images.githubusercontent.com/90885263/146711622-823b2840-9b11-4cc8-89cc-51b5c13cb33b.mp4
+  ![How to Use this App](https://user-images.githubusercontent.com/90885263/146711622-823b2840-9b11-4cc8-89cc-51b5c13cb33b.mp4)
 
   ### Snapshots
   * Sample Input <br />
