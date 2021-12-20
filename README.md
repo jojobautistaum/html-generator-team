@@ -37,8 +37,9 @@
   * Update package.json by changing the "test" key value into "jest" under "script" <br />
   i.e. "scripts": { <br />
           "test": "jest"
-  * Run all tests <br />
-  **npm test**
+  * Running the tests <br />
+  Please watch the video on how to run the test <br />
+  ![Running tests](https://user-images.githubusercontent.com/90885263/146708758-143cba01-bfbc-49b1-a0ca-d261dee58ca2.mp4)
 
   ## Tech/Framework
   * HTML
