@@ -25,7 +25,6 @@
   ### Snapshots
   * Sample Input <br />
   ![Input](./assets/images/sample-input.jpg)
-  
   * Sample Team Chart Page <br />
   ![Team Page](./assets/images/sample-page.jpg)
 
@@ -63,4 +62,4 @@
   
   Thank you for using my app.
 
-  For further question, please reachout to me in my GitHub profile: https://github.com/jojobautistaum
+  You may also reachout to me in my GitHub profile: https://github.com/jojobautistaum
