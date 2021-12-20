@@ -49,7 +49,7 @@
   * Node.js
   * Inquirer
   * Jest
-  * Classes with inheritance
+  * OOP - Classes with inheritance
   * File System
   * Screencastify
 
