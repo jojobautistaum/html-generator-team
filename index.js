@@ -147,7 +147,12 @@ function addEmployee() {
       internInfo();
     } else {
       const htmlPage = htmlTemplate(manager, engineer, intern);
-      generateHtml(htmlPage);
+      generateHtml(htmlPage)
+        .then(result => {
+          if(result.ok) {
+            console.log(result.message);
+          } 
+        });
     }
   })
   .catch(err => {
