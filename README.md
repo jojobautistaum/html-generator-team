@@ -39,7 +39,7 @@
           "test": "jest"
   * Running the tests <br />
   Please watch the video on how to run the test <br />
-  ![Running tests](https://user-images.githubusercontent.com/90885263/146708758-143cba01-bfbc-49b1-a0ca-d261dee58ca2.mp4)
+  ![Running tests](https://user-images.githubusercontent.com/90885263/146709515-97152a9a-a940-4f7f-aab9-9590f4b7bdf1.mp4)
 
   ## Tech/Framework
   * HTML
