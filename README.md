@@ -9,6 +9,7 @@
   * [Installation](#installation) 
   * [Usage](#usage) 
   * [Test](#test)
+  * [Tech/Framework](#tech)
   * [License](#license)
   * [Contributing](#contributing) 
   * [Questions](#questions)
@@ -18,17 +19,15 @@
   **npm i inquirer**
 
   ## Usage <a id="usage"></a> 
-  ### How to use this App
-  ![How to Use this App?](https://user-images.githubusercontent.com/90885263/144780497-c3f3e322-8a30-4200-bab9-a566bbd3b1a9.mp4)
+  ### Watch the video on how to use this App:
+  ![How to Use this App?](https://user-images.githubusercontent.com/90885263/146711622-823b2840-9b11-4cc8-89cc-51b5c13cb33b.mp4
 
-  ### Disect Generated README based on User Input
-  ![Disect README](https://user-images.githubusercontent.com/90885263/144787315-d3c869f2-9581-4b27-b342-5a31c6fec783.mp4)
-
-  ### Sample User Input 
-  ![User Input](./media/User_Input.jpg)
-
-  ### Preview of the Generated README file
-  ![README Preview](./media/README_Preview.jpg)
+  ### Snapshots
+  * Sample Input <br />
+  ![Input](./assets/images/sample-input.jpg)
+  
+  * Sample Team Chart Page <br />
+  ![Team Page](./assets/images/sample-page.jpg)
 
   ## Test <a id="test"></a>
   In order to test this app, please do the following: <br />
@@ -41,7 +40,7 @@
   Please watch the video on how to run the test <br />
   ![Running tests](https://user-images.githubusercontent.com/90885263/146709515-97152a9a-a940-4f7f-aab9-9590f4b7bdf1.mp4)
 
-  ## Tech/Framework
+  ## Tech/Framework <a id="tech"></a>
   * HTML
   * CSS
   * Bootstrap
