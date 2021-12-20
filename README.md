@@ -24,11 +24,12 @@
 
   ### Snapshots
   * Sample Input <br />
-  ![Input](./assets/images/sample-input.jpg)
+  ![sample-input](https://user-images.githubusercontent.com/90885263/146714721-25f43baf-785a-48bf-a30f-13cdb14cedd6.jpg)
+
   
   * Sample Team Chart Page <br />
-  ![Team Page](./assets/images/sample-page.jpg)
-
+ ![sample-page](https://user-images.githubusercontent.com/90885263/146714764-349c0a82-1a93-490e-9bc3-4b1060586202.jpg)
+ 
   ## Test <a id="test"></a>
   In order to test this app, please do the following: <br />
   * Install dependency: <br />
