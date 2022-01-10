@@ -28,7 +28,7 @@
 
   
   * Sample Team Chart Page <br />
- ![sample-page](https://user-images.githubusercontent.com/90885263/146714764-349c0a82-1a93-490e-9bc3-4b1060586202.jpg)
+ ![sample-page](https://user-images.githubusercontent.com/90885263/148790865-009c3d69-19c5-425e-8d57-ea5500a1c0d5.jpg)
  
   ## Test <a id="test"></a>
   In order to test this app, please do the following: <br />

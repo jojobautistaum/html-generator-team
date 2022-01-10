@@ -41,7 +41,7 @@ function managerSection(manager) {
             </h4>
             <div class="card-body">
               <p>ID: ${managerArr.getId()}</p>
-              <p>Email: ${managerArr.getEmail()}</p>
+              <p>Email: <a href="mailto:${managerArr.getEmail()}">${managerArr.getEmail()}</a></p>
               <p>Office Number: ${managerArr.getOfficeNumber()}</p>
             </div>
           </div>
@@ -62,7 +62,7 @@ function engineerSection(engineer) {
             </h4>
             <div class="card-body">
               <p>ID: ${engineerArr.getId()}</p>
-              <p>Emal: ${engineerArr.getEmail()}</p>
+              <p>Email: <a href="mailto:${engineerArr.getEmail()}">${engineerArr.getEmail()}</a></p>
               <p>GitHub: ${engineerArr.getGithub()}</p>
             </div>
           </div>
@@ -85,7 +85,7 @@ function internSection(intern) {
             </h4>
             <div class="card-body">
               <p>ID: ${internArr.getId()}</p>
-              <p>Emal: ${internArr.getEmail()}</p>
+              <p>Email: <a href="mailto:${internArr.getEmail()}">${internArr.getEmail()}</a></p>
               <p>School: ${internArr.getSchool()}</p>
             </div>
           </div>
